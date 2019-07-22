@@ -27,6 +27,20 @@ var countries = new Array('Kenya', 'Uganda', 'Tanzania');
     console.table(y);
 
 
+   function showDate(){
+    var time = document.getElementById('time');
+    time.innerHTML = Date();
+
+   }
+  
+
+   function clearDate(){
+    var time = document.getElementById('time');
+    time.innerHTML = "";
+
+   }
+
+
 
 
 
