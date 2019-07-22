@@ -14,10 +14,17 @@ var countries = new Array('Kenya', 'Uganda', 'Tanzania');
 
     //LOOPS
 
-    var x = [2,3,4,5,6,7];
+    // forEach loop
+    var x = [2,12,49,5,6,17];
+       
     x.forEach(function(x){
+       
         console.table(x);
     });
+
+    var y=  [2,12,49,5,6,17];
+    y.sort(function(a,b){return b-a});
+    console.table(y);
 
 
 
