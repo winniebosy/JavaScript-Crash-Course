@@ -22,7 +22,38 @@
 
           <p id ="time"></p>
         <button type="button" onclick ="showDate()"  onmouseover="clearDate()"   role="button">SHOW DATE</button>
+           
         
+        
+        <form>
+               <div class ="row">
+              <div class ="col-25">
+                  <label for ="name">Full Name: </label>
+              </div>
+              <div class ="col-75">
+                    <input type ="name" value=""  id ="fullName" placeholder="John Doe" required>
+              </div>
+              <div class ="col-25">
+                    <label for ="email">Email:</label>
+                </div>
+                <div class ="col-75">
+                        <input type ="email"  value =""  id="Email"   placeholder="johndoe@email.com" required>
+                </div>
+                <div class ="col-25">
+                        <label for="background"> Background </label>
+                    </div>
+                    <div class ="col-75">
+                          <select id ="background" name ="background" onchange="changeBackground(this)"  aria-selected="false">
+                              <option value="1">Blue</option>
+                              <option value="2">Green</option>
+                              <option value="3">Red</option>
+
+                          </select>
+                    </div>
+                    
+              </div>
+              <button type="button"  id="submit"  role="submit-button">Submit</button>
+           </form>
 
 
          </section>
